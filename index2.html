@@ -5,11 +5,121 @@
     <title></title>
   </head>
   <body>
-    <ol>
-      <li>
-        <h3>Ditt svar</h3>
-        <h3>Rätt svar</h3>
-      </li>
-    </ol>
+    <h1>Facit</h1>
+      <div>
+        <h3>Vad betyder GDPR?</h3>
+        <p>Ditt svar: <span id="input1R"></span></p>
+        <p> </p>
+        <p>Rätt Svar: General Data Protection Regulation</p>
+      </div>
+      <div>
+        <h3>Vad bestämmer GDPR om?</h3>
+        <p>Ditt svar: <span id="inputText1"></span></p>
+        <p> </p>
+        <p>Rätt Svar: GDPR är en lag som inehåller obligatoriska regler för hur utvecklare får lov att använda sig av personuppgifter.</p>
+      </div>
+      <div>
+        <h3>När ska du använda metoden POST för att skicka data?</h3>
+        <p>Ditt svar: <span id="inputText2"></span></p>
+        <p> </p>
+        <p> Rätt Svar: Post används för att skicka data till server för att skapa eller uppdatera en resurs.</p>
+      </div>
+      <div>
+        <h3>När ska du använda metoden GET för att skicka data</h3>
+        <p>Ditt svar: <span id="inputText3"></span></p>
+        <p> </p>
+        <p> Rätt Svar: Get används för att hämta data från en specifik resurs.</p>
+      </div>
+      <div>
+        <h3>Ska du som utvecklare lita på användare? Resonera utifrån ett säkerhetsperspektiv!</h3>
+        <p>Ditt svar: <span id="inputText4"></span></p>
+        <p> </p>
+        <p>Rätt Svar: Som utvecklare ska du vara varsam med att lita på användare, då informationen de anger inte alltid behöver vara sann.</p>
+      </div>
+      <div>
+        <h3>Ska du som användare lita på utvecklare? Resonera utifrån ett säkerhetsperspektiv!</h3>
+        <p>Ditt svar: <span id="inputText5"></span></p>
+        <p> </p>
+        <p>Rätt Svar: Som användare bör du inte alltid lita på utvecklare då du inte vet hur de förhåller sig till din personliga data.</p>
+      </div>
+      <div>
+        <h3>Hur kan du som utvecklare skydda användares lösenord?</h3>
+        <p>Ditt svar: <span id="input2R"></span></p>
+        <p> </p>
+        <p>Rätt Svar: Hashning av lösenord, ange en minimi längd på lösenord och logga ut användare automatiskt.</p>
+      </div>
+      <div>
+        <h3>Redogör för dessa sätt</h3>
+        <p>Ditt svar: <span id="inputText6"></span></p>
+        <p> </p>
+        <p>Rätt Svar: Hashning av lösenordet innebär att det krypteras och inte kan läsas lika enkelt av hackare, ett längre lösenord är också svårare för datorer och hackare att hitta och automatisk utloggning tillför säkerhet ifall någon skulle komma åt din enhet.</p>
+      </div>
+      <div>
+        <h3>Hur kan man säkra lösenord?</h3>
+        <p>Ditt svar: <span id="inputText7"></span></p>
+        <p> </p>
+        <p>Rätt Svar: Användnig av lösenordshanterare är att föredra, man kan även testa omkring med att blanda ihop olika ord, tecken och siffror tills man  får någonting svårt att lista ut.</p>
+      </div>
+      <div>
+        <h3>Vad är skillnaden mellan kryptering och hashing?</h3>
+        <p>Ditt svar: <span id="inputText8"></span></p>
+        <p> </p>
+        <p>Rätt Svar: Kryptering går att dekryptera men det går inte att göra med Hashning</p>
+      </div>
+      <div>
+        <h3>Beskriv varför det är en dum ide att lagra saker i klartext</h3>
+        <p>Ditt svar: <span id="inputText9"></span></p>
+        <p> </p>
+        <p>Rätt Svar: Information lagrad i klartext kan potentiellt ses av hackare och lagring av sensitiv information bör därför inte förekomma i klartext.</p>
+      </div>
+      <div>
+        <h3>Vad är en blacklist?</h3>
+        <p>Ditt svar: <span id="input3R"></span></p>
+        <p></p>
+        <p>Rätt Svar: En lista på förbjudna saker (Användare, ord, m.m.)</p>
+      </div>
+      <div>
+        <h3>Vad är en whitelist?</h3>
+        <p>Ditt svar: <span id="input4R"></span></p>
+        <p> </p>
+        <p>Rätt Svar: En lista på tillåtna saker</p>
+      </div>
+      <div>
+        <h3>Vilken är bäst? Att använda sig av blacklist eller whitelist? resonera utifrån ett säkerhetsperspektiv!</h3>
+        <p>Ditt svar: <span id="inputText10"></span></p>
+        <p> </p>
+        <p>Rätt Svar: Whitelist,det är enklare för en utvecklare att stäna ner all funktioner för användare och bara ge dem tillgång till vad de behöver istället för att manuellt stänga ner allt de inte behöver.</p>
+      </div>
+      <div>
+        <h3>Beskriv vad som händer vid XSS</h3>
+        <p>Ditt svar: <span id="inputText11"></span></p>
+        <p> </p>
+        <p>Rätt Svar: XSS är en form av injicering där hackare anropar sina egna skadliga skript genom utvecklaren av en hemsidas utskrift. Dessa skript kan komma åt sensitiv information som användaren delat med sidan i fråga så som cookies.</p>
+      </div>
+      <div>
+        <h3>Är det en bra idé att infoga kod direkt ifrån stackoverflow? Redogör.</h3>
+        <p>Ditt svar: <span id="inputText12"></span></p>
+        <p> </p>
+        <p>Rätt Svar: Att överföra och applicera kod direkt från stack overflow är inte rekommenderat, det är inte säkert att koden kommer fungera på din hemsida och det kan finnas problem gällande uppehovsrätten till koden.</p>
+      </div>
+      <div>
+        <h3>Vad kan vara bra att tänka på innan du importerar ett kodbibliotek?</h3>
+        <p>Ditt svar: <span id="inputText13"></span></p>
+        <p> </p>
+        <p>Rätt Svar: Innan man importerar ett kodbibliotek bör man säkerställa dess trovärdighet, så att man vet att kodbiblioteket inte loggar användning. Man bör även ha i åtanke att slutresultatet ligger på ens egna axlar.</p>
+      </div>
+      <div>
+        <h3>Hur vet du att ett webbhotell är pålitligt?</h3>
+        <p>Ditt svar: <span id="input5R"></span></p>
+        <p> </p>
+        <p>Rätt Svar: Samtliga källor på internet påstår det. Förklaring: För att veta att ett webbhotell är pålitligt samt fyller ditt syfte bör man kolla upp information om hotellet i fråga på nätet för att se om det har ett bra omdöme.</p>
+      </div>
+      <div>
+        <h3>Redogör för hur två saker gör webbhotell mer eller mindre pålitligt.</h3>
+        <p>Ditt svar: <span id="inputText14"></span></p>
+        <p> </p>
+        <p>Rätt Svar: När det kommer till webbhotell så är hanteringen av säkerhet och servrar hörnstenar i utgörandet av webbhotellets kvalité. Billigare alternativ har oftast sämre säkerhet och klenare servrar medan dyrare alternativ oftast har bättre säkerhet och server styrka.</p>
+      </div>
+    <script type="text/javascript" src="script.js"></script>
   </body>
 </html>

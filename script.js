@@ -1,6 +1,4 @@
-
 console.log("meddelande från en annan fil");
-
 
 let url = decodeURI(window.location.href);
 console.log(url);
@@ -12,10 +10,6 @@ for (var i = 0; i < dataPairs.length; i++) {
   console.log(dataPairs[i]);
   let keyPair = dataPairs[i].split("=");
   console.log("input" + keyPair[0]);
+  keyPair[1] = keyPair[1].replace(/[+]/g," ");
   document.getElementById("input" + keyPair[0]).textContent += " " + keyPair[1];
-}
-
-function sendIn()
-{
-  
 }
